@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Казино Игры</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            border-radius: 30px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .menu-item {
+            display: block;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎰 ВЫБЕРИ ИГРУ</h1>
+        <div class="menu">
+            <a href="wheel.html" class="menu-item">🎡 КОЛЕСО ФОРТУНЫ</a>
+            <a href="slots.html" class="menu-item">🎰 СЛОТЫ</a>
+            <a href="dice.html" class="menu-item">🎲 КОСТИ</a>
+            <a href="blackjack.html" class="menu-item">🃏 БЛЭКДЖЕК</a>
+        </div>
+    </div>
+</body>
+</html>
